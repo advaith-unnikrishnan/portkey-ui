@@ -82,6 +82,7 @@ header div{
         display: flex;
         align-items: center;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .img-banner{
@@ -91,6 +92,7 @@ header div{
 
     .info-banner{
         margin: var(--default-margin);
+        max-width:50%;
     }
 
     .info-banner > h2{

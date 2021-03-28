@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+:root{
+    --primary-color:#3B82F6;
+    --secondary-color:#f4f9f9;
+    --dark-blue: #2563EB;
+    --light-blue:#60A5FA;
+    --white:#fff;
+    --default-margin:1rem;
+    --default-padding:0.5rem 1rem;
+    --default-fontsize:1rem;
+    --medium-fontsize:1.25rem;
+}
+
+.img-avatar{
+   border-radius: 1rem;
+}
+
+.img-avatar-circle{
+    border-radius: 6rem;
+}
+
+.large{
+    max-width: 10rem;
+}
+
+.medium{
+    max-width:7rem;
+}
+
+.small{
+    max-width: 5rem;
+}

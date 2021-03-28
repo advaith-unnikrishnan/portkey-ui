@@ -19,6 +19,14 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav main main"
+    "nav main main";
 }
 
 li{
@@ -27,6 +35,7 @@ li{
 
 a{
     text-decoration: none;
+    color: #000;
 }
 
 .icons{
@@ -43,6 +52,7 @@ a{
         background-color: var(--primary-color);
         color: var(--white);
         width: 100%;
+        grid-area: header;
     }
     
     header div{
@@ -73,6 +83,7 @@ a{
         ================== */
     
     nav{
+        grid-area: nav;
         margin: var(--default-margin);
         font-size: var(--medium-fontsize);
     }
@@ -80,3 +91,26 @@ a{
     .nav-sidebar > ul >li{
         padding: var(--default-padding);
     }
+
+    /* =================================
+                 MAIN CONTENT
+        ================================ */
+
+    main{
+        grid-area:main;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ======Avatar Section========= */
+    #avatar{
+        margin: var(--default-margin);
+        padding: var(--default-padding);
+    }
+
+    #avatar > img{
+        margin: var(--default-margin);
+    }
+
+    /* ==========Alert Section====== */
+    

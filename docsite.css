@@ -102,6 +102,10 @@ a{
         flex-direction: column;
     }
 
+    main,div{
+        margin: var(--default-margin);
+    }
+
     /* ======Avatar Section========= */
     #avatar{
         margin: var(--default-margin);
@@ -113,4 +117,6 @@ a{
     }
 
     /* ==========Alert Section====== */
-    
+    #alert{
+        padding: var(--default-padding);
+    }

@@ -13,6 +13,8 @@
     --medium-fontsize:1.25rem;
 }
 
+
+/* =========Avatar=========== */
 .img-avatar{
    border-radius: 1rem;
 }
@@ -31,4 +33,46 @@
 
 .small{
     max-width: 5rem;
+}
+
+/* =========Alert============= */
+.alert{
+    position: relative;
+    padding: var(--default-padding);
+    margin: var(--default-margin);
+    background-color: var(--light-blue);
+    text-align: center;
+    width:50%;
+    color: var(--white);
+    border-radius: 0.5rem;
+}
+
+.alert-primary{
+    color:#084298;
+    background-color: #cfe2ff;
+    border: 0.1rem solid #084298;
+}
+
+.alert-success{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border: 0.1rem solid #0f5132;
+}
+
+.alert-danger{
+    color: #842029;
+    background-color: #f8d7da;
+    border:0.1rem solid #842029;
+}
+
+.alert-warning{
+    color: #664d03;
+    background-color: #fff3cd;
+    border:0.1rem solid #664d03;
+}
+
+.alert-info{
+    color: #055160;
+    background-color: #cff4fc;
+    border:0.1rem solid #055160;
 }

@@ -111,14 +111,35 @@
     border: none;
     border-radius: 0.25rem;
     outline:none;
-    transition: 0.3s ease-out;
-}
-
-.btn:hover{
-    font-size: var(--medium-fontsize);
+    color: var(--white);
+    background-color: #000;
+    font-size:1rem;
 }
 
 .btn-primary{
     color: var(--white);
     background-color: var(--primary-color);
+}
+
+.btn-secondary{
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-icon{
+    color:  #084298;
+    background-color: #cfe2ff;
+}
+
+.btn-icon > i{
+    margin: 0rem 0.25rem;
+}
+
+.btn-large{
+    font-size:2rem;
+}
+
+.btn-small{
+    font-size: 0.5rem;
 }

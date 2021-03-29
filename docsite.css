@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?_cacheOverride=1616950576655");
 *{
     padding: 0;
     margin: 0;
@@ -37,6 +37,7 @@ a{
     text-decoration: none;
     color: #000;
 }
+
 
 .icons{
     max-width: 1.5rem;
@@ -102,7 +103,7 @@ a{
         flex-direction: column;
     }
 
-    main,div{
+    main div{
         margin: var(--default-margin);
     }
 
@@ -120,3 +121,7 @@ a{
     #alert{
         padding: var(--default-padding);
     }
+
+
+    /* =======Badge Section========= */
+    
